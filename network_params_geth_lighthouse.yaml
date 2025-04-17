@@ -14,7 +14,7 @@ participants:
     el_max_mem: 0
 # CL
     cl_type: lighthouse
-    cl_image: sigp/lighthouse:v5.3.0
+    cl_image: lighthouse:local
     cl_log_level: ""
     cl_extra_env_vars: {}
     cl_extra_labels: {}
@@ -88,7 +88,7 @@ assertoor_params:
   run_lifecycle_test: false
   tests: []
 wait_for_finalization: false
-global_log_level: info
+global_log_level: debug
 snooper_enabled: false
 ethereum_metrics_exporter_enabled: false
 parallel_keystore_generation: false
